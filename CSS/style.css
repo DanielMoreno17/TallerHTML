@@ -1,19 +1,33 @@
 body{
     font-family: "Times New Roman", sans-serif;
-    color: darkcyan;
-    text-align: justify;
-    padding: 300px;
+    background-color: rgb(225, 181, 255);
 }
 nav {
     position: fixed;
-    background-color: blue;
+    background-color: lightblue;
     width: 100%;
-    margin-top: -50px;
+    margin-top: 50;
 }
 
 .list-nav{
     display: inline-block;
     list-style-type: none;
     padding: 10;
-    margin: 0;
+    margin: 10;
+}
+p{
+    color: rgb(82, 25, 138);
+    text-align: justify;
+    padding: 100px;
+}
+
+
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    background-image: url('xd1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto; 
 }
