@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de Multimedia en HTML</title>
 </head>
+<style>
+    body {
+            text-align: center; 
+            font-size: 25px;
+    }
+    .titulos{
+        color: violet
+    }
+</style>
 <body>
-    <h1>Ejemplo de Multimedia en HTML</h1>
+    <h1 class="titulos">Ejemplo de Multimedia en HTML</h1>
+    <p>Esta página contiene recursos audiovisuales, ejemplifican el uso en HTML5</p>
 
-    <h2>Imagen</h2>
-    <img src="../recursos/imagenEjemplo.jpg" alt="Descripción de la imagen" width="500">
+    <h2 class="titulos">Imagen</h2>
+    <p> El siguiente recurso es una imagen</p>
+    <img src="../recursos/xd1.jpg" alt="Descripción de la imagen" width="500">
 
-    <h2>Video</h2>
+    <h2 class="titulos">Video</h2>
+    <p>El siguiente recurso es un video</p>
     <video width="500" controls>
-        <source src="../recursos/videoEjemplo.mp4" type="video/mp4">
+        <source src="../recursos/xd.mp4" type="video/mp4">
     </video>
 
-    <h2>Audio</h2>
+    <h2 class="titulos">Audio</h2>
+    <p>El siguiente recurso en un audio, es lo mismo que lo anterior pero únicamente el audio</p>
     <audio controls>
-        <source src="../recursos/videoEjemplo.mp4" type="audio/mpeg">
+        <source src="../recursos/xd.mp4" type="audio/mpeg">
     </audio>
+    <li class="lista"><a href="../index.html">Volver al incio</a></li>
 </body>
 </html>

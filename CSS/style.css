@@ -1,22 +1,19 @@
-* {
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;  
-}
-
 body{
-    padding-top: 50px;
+    font-family: "Times New Roman", sans-serif;
+    color: darkcyan;
+    text-align: justify;
+    padding: 300px;
 }
 nav {
     position: fixed;
-    background-color: red;
+    background-color: blue;
     width: 100%;
     margin-top: -50px;
 }
 
-
 .list-nav{
     display: inline-block;
     list-style-type: none;
-    padding: 0;
+    padding: 10;
     margin: 0;
 }

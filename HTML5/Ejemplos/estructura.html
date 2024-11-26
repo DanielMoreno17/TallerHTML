@@ -1,59 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Metadatos -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ejemplo de un documento HTML con navegación para diferentes ejemplos">
-  <title>Ejemplo de HTML Bien Estructurado</title>
+  <meta name="description" content="Esto es el ejemplo de una descripcion de una pagina web">
+  <title>Ejemplo de HTML y CSS</title>
+  <style>
+    body {
+        text-align: center; 
+        font-size: 30px;
+    }
+    .lista {
+        font-size: 30px; 
+    }
+    .titulos {
+        color: violet; 
+    }
+    .parrafo {
+        color: purple; 
+    }
+    ul, ol {
+            list-style-position: inside; /* Mueve los puntos de la lista al interior */
+            padding: 5;
+            display: inline-block; /* Hace que la lista sea un elemento en línea */
+            text-align: left; /* Alinea el texto de la lista a la izquierda */
+    }
+  </style>
 </head>
 <body>
-  <!-- Cabecera -->
   <header>
-    <h1>Mi Sitio Web</h1>
-    <p>Bienvenido a mi página web de ejemplos HTML5. Aquí encontrarás distintos conceptos explicados con ejemplos prácticos.</p>
+    <h1 class="titulos">Taller de HTML5</h1>
+    <p>Esto es el producto de un taller con ejemplos prácticos de HTML5 y CSS</p>
   </header>
 
-  <!-- Navegación -->
   <nav>
-    <h1>Ejemplos de HTML5</h1>
-    <ul>
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="estructura.html">Estructura Básica</a></li>
-      <li><a href="etiquetasComunes.html">Etiquetas Comunes</a></li>
-      <li><a href="listas.html">Listas</a></li>
-      <li><a href="enlacesNavegacion.html">Enlaces y Navegación</a></li>
-      <li><a href="multimedia.html">Imágenes y Multimedia</a></li>
-      <li><a href="formularios.html">Formularios</a></li>
-      <li><a href="metadatos.html">MetaDatos</a></li>
-      <li><a href="divs.html">Div's</a></li>
-      <li><a href="nav.html">Nav</a></li>
-    </ul>
+    <h1 class="titulos">Lista de ejemplos de uso de HTML5 con CSS (estilo)</h1>
+    <ol>
+      <li class="lista"><a href="../index.html">Inicio</a></li>
+      <li class="lista"><a href="estructura.html">Estructura Básica</a></li>
+      <li class="lista"><a href="etiquetasComunes.html">Etiquetas Comunes</a></li>
+      <li class="lista"><a href="listas.html">Listas</a></li>
+      <li class="lista"><a href="enlacesNavegacion.html">Enlaces y Navegación</a></li>
+      <li class="lista"><a href="multimedia.html">Imágenes y Multimedia</a></li>
+      <li class="lista"><a href="formularios.html">Formularios</a></li>
+      <li class="lista"><a href="metadatos.html">MetaDatos</a></li>
+      <li class="lista"><a href="divs.html">Div's</a></li>
+      <li class="lista"><a href="nav.html">Nav</a></li>
+    </ol>
   </nav>
-
-  <!-- Sección Principal -->
   <main>
     <section>
-      <h2>Introducción</h2>
+      <h2 class="titulos">Introducción</h2>
       <p>Selecciona cualquier opción del menú de navegación para explorar ejemplos detallados sobre cada tema.</p>
     </section>
 
-    <!-- Artículos -->
     <article>
-      <h2>HTML en la Web</h2>
+      <h2 class="titulos">HTML en la Web</h2>
       <p>HTML es el lenguaje de marcado que define la estructura de las páginas web. Es esencial para cualquier desarrollador que quiera crear sitios accesibles y bien estructurados.</p>
-      <p>Explora más sobre este tema en la sección <a href="estructura.html">Estructura Básica</a>.</p>
+      <p>Se detalla más en: <a href="estructura.html">Estructura Básica</a>.</p>
     </article>
 
     <article>
-      <h2>Formularios Interactivos</h2>
+      <h2 class="titulos">Formularios Interactivos</h2>
+      <h3 class="titulos">¿Qué son?</h3>
       <p>Los formularios son herramientas esenciales en las páginas web para interactuar con los usuarios. Se utilizan para recopilar datos, registrar usuarios, y más.</p>
-      <p>Conoce cómo implementarlos en la sección <a href="formularios.html">Formularios</a>.</p>
+      <p>Se habla mas de la implementacion en: <a href="formularios.html">Formularios</a>.</p>
     </article>
   </main>
 
-  <!-- Pie de Página -->
   <footer>
+    <h2 class="titulos"> Aqui comienza footer de la página web</h2>
     <p>&copy; 2024 Ejemplos de HTML5. Todos los derechos reservados.</p>
     <p><a href="../index.html">Volver al inicio</a></p>
   </footer>

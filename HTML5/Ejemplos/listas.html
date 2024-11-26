@@ -4,34 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplos de Listas en HTML</title>
+    <style>
+        body {
+            text-align: center; 
+            font-size: 25px;
+        }
+        ul, ol {
+            list-style-position: inside; 
+            padding: 5;
+            display: inline-block;
+            text-align: left;
+        }
+        .titulos {
+            color: violet;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ejemplos de Listas en HTML</h1>
-
-    <h2>Lista Desordenada (ul)</h2>
+    <h1 class="titulos">Ejemplos de Listas en HTML</h1>
+    <p>Los siguientes son ejemplos de listas en HTML5</p>
+    <h2 class="titulos">Lista Desordenada (ul)</h2>
     <ul>
         <li>Manzana</li>
         <li>Banana</li>
         <li>Cereza</li>
     </ul>
 
-    <h2>Lista Ordenada (ol)</h2>
+    <h2 class="titulos">Lista Ordenada (ol)</h2>
     <ol>
         <li>Primero</li>
         <li>Segundo</li>
         <li>Tercero</li>
     </ol>
 
-    <h2>Listas Anidadas</h2>
+    <h2 class="titulos">Listas Anidadas</h2>
     <ul>
-        <li>Frutas
+        <li>Frutas <br>
             <ul>
                 <li>Manzana</li>
                 <li>Banana</li>
                 <li>Cereza</li>
             </ul>
         </li>
-        <li>Verduras
+        <li>Verduras <br>
             <ul>
                 <li>Zanahoria</li>
                 <li>Lechuga</li>
@@ -39,5 +54,6 @@
             </ul>
         </li>
     </ul>
+    <li class="lista"><a href="../index.html">Volver al incio</a></li>
 </body>
 </html>

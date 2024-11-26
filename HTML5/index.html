@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplos HTML5</title>
+    <title>Ejemplos HTML5</title>  
+    <style>
+         body {
+            text-align: center; 
+            font-size: 25px;
+        }
+        ul, ol {
+            list-style-position: inside; /* Mueve los puntos de la lista al interior */
+            padding: 5;
+            display: inline-block; /* Hace que la lista sea un elemento en línea */
+            text-align: left; /* Alinea el texto de la lista a la izquierda */
+        }
+        .titulos {
+            color: violet;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ejemplos de HTML5</h1>
-    <ul>
+    <h1 class="titulos">Ejemplos de HTML5</h1>
+    <ol class="lista">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="Ejemplos/estructura.html">Estructura Basica</a></li>
         <li><a href="Ejemplos/etiquetasComunes.html">Etiquetas comunes</a></li>
         <li><a href="Ejemplos/listas.html">Listas</a></li>
         <li><a href="Ejemplos/enlacesNavegacion.html">Enlaces y Navegacion</a></li>
-        <li><a href="Ejemplos/imagenesMultimedia.html">Imagenes y Multimedia</a></li>
+        <li><a href="Ejemplos/multimedia.html">Imagenes y Multimedia</a></li>
         <li><a href="Ejemplos/formularios.html">Formularios</a></li>
         <li><a href="Ejemplos/metadatos.html">MetaDatos</a></li>
         <li><a href="Ejemplos/divs.html">Div's</a></li>
         <li><a href="Ejemplos/nav.html">Nav</a></li>
-    </ul>
+    </ol>
 </body>
 </html>

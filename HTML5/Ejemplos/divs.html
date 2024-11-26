@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de uso de div</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+        .custom-title {
+            color: purple;    
+        }
+        .custom-paragraph {
+            color: red; 
+        }
+    </style>
 </head>
-    <body>
-        <div>
-            <h1>Encabezado dentro de un div</h1>
-            <p>Este es un párrafo dentro de un div.</p>
-        </div>
-        <div>
-            <h2>Otro encabezado dentro de otro div</h2>
-            <p>Este es otro párrafo dentro de otro div.</p>
-        </div>
-    </body>
+<body>
+    <div>
+        <h1 class = "custom-title">Aqui se ven los usos de H1, H2 y P</h1>
+
+        <h1 class="custom-title">Este es un encabezado con h1, es como un título</h1>
+        <p class="custom-paragraph">Esto es un parrafo dentro de un div, se realiza con una "p"</p>
+    </div>
+    <div>
+        <h2 class="custom-title">Esto es un h2, es decir, un encabezado de nivel 2, como un subtitulo</h2>
+        <p class="custom-paragraph">Otro parrafo como el primero en color rojo utilizando css</p>
+    </div>
+
+    <li class="lista"><a href="../index.html">Volver al incio</a></li>
+
+</body>
 </html>

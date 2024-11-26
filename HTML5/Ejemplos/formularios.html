@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de Formulario</title>
 </head>
+<style>
+    body {
+        text-align: center; 
+        font-size: 30px;
+    }
+    .titulos {
+        color: violet;
+    }
+</style>
 <body>
-    <h1>Formulario de Registro</h1>
+    <h1 class="titulos">Formulario de Registro</h1>
     <form action="/submit" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
@@ -34,5 +43,7 @@
 
         <input type="submit" value="Registrarse">
     </form>
+
+    <li class="lista"><a href="../index.html">Cancelar</a></li>
 </body>
 </html>
