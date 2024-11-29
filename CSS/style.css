@@ -12,20 +12,23 @@ nav {
 .list-nav{
     display: inline-block;
     list-style-type: none;
-    padding: 10;
+    padding: 20;
     margin: 10;
+    font-size: 40px;
+    
 }
 p{
     color: rgb(82, 25, 138);
     text-align: justify;
     padding: 100px;
+    font-size: x-large;
 }
 
 
 
 .imagen {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     background-image: url('xd1.jpg');
     background-size: cover;
     background-position: center;
